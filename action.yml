@@ -1,0 +1,14 @@
+name: 'iOS-App-Test-Action'
+description: 'An github action for iOS App to run test'
+inputs:
+  xcworkspace: 
+    description: "the xcworkspace to run test"
+  use_modern_build_system:
+    description: 'use modern system to build app'
+    default: 'YES'
+# outputs:
+#   time: # 输出 id
+#     description: 'The time we greeted you'
+runs:
+  using: 'node12'
+  main: 'main.js'
