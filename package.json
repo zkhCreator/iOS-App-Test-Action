@@ -19,6 +19,7 @@
   "homepage": "https://github.com/zkhCreator/iOS-App-Test-Action#readme",
   "dependencies": {
     "@actions/core": "^1.2.2",
-    "@actions/github": "^2.1.1"
+    "@actions/github": "^2.1.1",
+    "shelljs": "^0.8.3"
   }
 }
